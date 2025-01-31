@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تواصل معنا على واتساب</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+            padding: 20px;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* لجعل الصفحة تأخذ ارتفاع الشاشة بالكامل */
+        }
+        .whatsapp-logo {
+            width: 150px; /* حجم الصورة */
+            cursor: pointer;
+            margin: 20px 0; /* تباعد بين الصورة والنص */
+            transition: transform 0.2s; /* تأثير تكبير الصورة عند التمرير */
+        }
+        .whatsapp-logo:hover {
+            transform: scale(1.1); /* تكبير الصورة قليلاً عند التمرير */
+        }
+        .whatsapp-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 15px 30px;
+            background-color: #25D366;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        .whatsapp-button:hover {
+            background-color: #128C7E;
+        }
+        h1 {
+            margin-bottom: 10px;
+        }
+        p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>مرحباً</h1>
+    <p>للطلب والاستفسار، اضغط على صورة الواتساب</p>
+    
+    <!-- صورة لوجو واتساب -->
+    <a href="https://wa.me/9647700442888?text=مرحبًا،%20أريد%20الشراء%20من%20موقعكم">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="واتساب" class="whatsapp-logo">
+    </a>
+    
+    <!-- زر واتساب -->
+    <a href="https://wa.me/9647700442888?text=مرحبًا،%20أريد%20الشراء%20من%20موقعكم" class="whatsapp-button">تواصل معنا على واتساب</a>
+</body>
+</html>
