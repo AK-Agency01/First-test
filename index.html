@@ -15,16 +15,20 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            height: 100vh; /* لجعل الصفحة تأخذ ارتفاع الشاشة بالكامل */
+            height: 100vh;
+        }
+        .logo {
+            width: 250px; /* حجم الشعار */
+            margin-bottom: 20px;
         }
         .whatsapp-logo {
-            width: 150px; /* حجم الصورة */
+            width: 150px;
             cursor: pointer;
-            margin: 20px 0; /* تباعد بين الصورة والنص */
-            transition: transform 0.2s; /* تأثير تكبير الصورة عند التمرير */
+            margin: 20px 0;
+            transition: transform 0.2s;
         }
         .whatsapp-logo:hover {
-            transform: scale(1.1); /* تكبير الصورة قليلاً عند التمرير */
+            transform: scale(1.1);
         }
         .whatsapp-button {
             display: inline-block;
@@ -49,15 +53,16 @@
     </style>
 </head>
 <body>
-    <h1>مرحباً</h1>
-    <p>للطلب والاستفسار، اضغط على صورة الواتساب</p>
+    <!-- شعار الموقع -->
+    <img src="Picsart_25-01-16_03-34-49-424.png" alt="شعار وكالتك" class="logo">
     
-    <!-- صورة لوجو واتساب -->
+    <h1>مرحباً</h1>
+    <p>تم الترويج بواسطة وكالة AK،للأستفسار اضغط على صورة الواتساب</p>
+    
     <a href="https://wa.me/9647700442888?text=مرحبًا،%20أريد%20الشراء%20من%20موقعكم">
         <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="واتساب" class="whatsapp-logo">
     </a>
     
-    <!-- زر واتساب -->
-    <a href="https://wa.me/9647700442888?text=مرحبًا،%20أريد%20الشراء%20من%20موقعكم" class="whatsapp-button">تواصل معنا على واتساب</a>
+    <a href="https://wa.me/9647817358484" class="whatsapp-button">تواصل معنا على واتساب</a>
 </body>
 </html>
