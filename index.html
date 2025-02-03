@@ -6,20 +6,25 @@
     <title>تواصل معنا على واتساب</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Cairo', sans-serif;
             text-align: center;
-            background-color: #f4f4f4;
+            background-color: #f4f4f4; /* خلفية محايدة */
             padding: 20px;
             margin: 0;
             display: flex;
-            flex-direction: column;
             justify-content: center;
             align-items: center;
             height: 100vh;
         }
-        .logo {
-            width: 250px; /* حجم الشعار */
-            margin-bottom: 20px;
+        .content-container {
+            background-color: #fff; /* خلفية بيضاء داخل الإطار */
+            padding: 30px;
+            border-radius: 15px;
+            width: 80%;
+            max-width: 500px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* إضافة ظلال للإطار */
+            border: 2px solid #1000E8; /* إطار بلون #1000E8 */
+            text-align: center; /* محاذاة النص داخل الإطار */
         }
         .whatsapp-logo {
             width: 150px;
@@ -34,35 +39,46 @@
             display: inline-block;
             margin-top: 20px;
             padding: 15px 30px;
-            background-color: #25D366;
+            background-color: #1000E8; /* اللون الرئيسي */
             color: #fff;
             text-decoration: none;
             border-radius: 5px;
             font-size: 20px;
             cursor: pointer;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
         }
         .whatsapp-button:hover {
-            background-color: #128C7E;
+            background-color: #6CE184; /* التغيير عند التمرير إلى اللون الثاني */
         }
         h1 {
             margin-bottom: 10px;
+            color: #1000E8;
+            font-size: 24px; /* تكبير حجم العنوان */
         }
         p {
             margin: 0;
+            color: #1000E8;
+            font-size: 18px; /* تحسين حجم الخط للنصوص */
+        }
+        .promo {
+            font-size: 16px;
+            color: #6CE184; /* نص الوكالة */
+            margin-bottom: 20px; /* إضافة مسافة تحت النص */
         }
     </style>
 </head>
 <body>
-    <!-- شعار الموقع -->
-    <img src="Picsart_25-01-16_03-34-49-424.png" alt="شعار وكالتك" class="logo">
-    
-    <h1>مرحباً</h1>
-    <p>تم الترويج بواسطة وكالة AK،للأستفسار اضغط على صورة الواتساب</p>
-    
-    <a href="https://wa.me/9647700442888?text=مرحبًا،%20أريد%20الشراء%20من%20موقعكم">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="واتساب" class="whatsapp-logo">
-    </a>
-    
-    <a href="https://wa.me/9647817358484" class="whatsapp-button">تواصل معنا على واتساب</a>
+    <div class="content-container">
+        <p class="promo"><strong>تم الترويج بواسطة وكالة</strong></p>
+        <p class="promo"><strong>AK</strong></p>
+        <h1>مرحباً</h1>
+        <p>للاستفسار اضغط على صورة الواتساب</p>
+
+        <a href="https://wa.me/9647817358484">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="واتساب" class="whatsapp-logo">
+        </a>
+
+        <a href="https://wa.me/9647817358484" class="whatsapp-button">تواصل معنا على واتساب</a>
+    </div>
 </body>
 </html>
